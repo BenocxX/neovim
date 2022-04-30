@@ -9,9 +9,10 @@ local patterns = {
 }
 
 local updateIndent = function()
-    vim.o.tabstop = 2
-    vim.o.shiftwidth = 0
-    vim.o.softtabstop = -1
+    local o = vim.opt_local
+    o.tabstop = 2
+    o.shiftwidth = 0
+    o.softtabstop = -1
 end
 
 vim.api.nvim_create_autocmd(events, {
