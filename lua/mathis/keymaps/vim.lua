@@ -11,6 +11,9 @@ k.set('', '<space><cr>', ':noh<cr>', { silent = true })
 -- 0 to first no blank char
 k.set('n', '0', '^')
 
+-- ; at end of line
+k.set('n', '<leader>;', "m'A;<ESC>`'")
+
 -- Move line of text
 k.set('n', 'mj', 'mz:m+<cr>`z')
 k.set('n', 'mk', 'mz:m-2<cr>`z')
