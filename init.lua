@@ -18,6 +18,7 @@ require('mathis.keymaps.vim')
 require('mathis.keymaps.nvim-tree')
 require('mathis.keymaps.telescope')
 require('mathis.keymaps.lsp')
+require('mathis.keymaps.lazygit')
 
 -- Autocmd
 require('mathis.autocmd.small-indent')

@@ -10,6 +10,7 @@ return require('packer').startup(function()
 
     -- Git
     use 'lewis6991/gitsigns.nvim'
+    use 'kdheepak/lazygit.nvim'
 
     -- Completition
     use 'hrsh7th/cmp-nvim-lsp'
