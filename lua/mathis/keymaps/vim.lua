@@ -29,5 +29,9 @@ k.set('v', '<leader>p', '"+p')
 -- Edit nvim keymap
 k.set('n', '<leader>e', ':tabedit ~/.config/nvim<cr>')
 
+-- Better indenting
+k.set('v', '<Tab>', '>gv')
+k.set('v', '<S-Tab>', '<gv')
+
 -- Tabs
 k.set('n', '<leader>tc', ':tabclose<cr>')
