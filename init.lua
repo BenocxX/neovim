@@ -12,6 +12,7 @@ require('mathis.configurations.telescope')
 require('mathis.configurations.cmp')
 require('mathis.configurations.autopair')
 require('mathis.configurations.gitsigns')
+require('mathis.configurations.lualine')
 
 -- Keymaps
 require('mathis.keymaps.vim')

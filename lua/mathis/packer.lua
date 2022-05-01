@@ -3,7 +3,6 @@ return require('packer').startup(function()
     use 'wbthomason/packer.nvim'
 
     -- Visual
-    use 'itchyny/lightline.vim'
     use 'morhetz/gruvbox'
     use 'dracula/vim'
     use 'joshdick/onedark.vim'
@@ -40,6 +39,10 @@ return require('packer').startup(function()
         'akinsho/bufferline.nvim',
         tag = "*",
         requires = 'kyazdani42/nvim-web-devicons'
+    }
+    use {
+        'nvim-lualine/lualine.nvim',
+        requires = { 'kyazdani42/nvim-web-devicons', opt = true }
     }
 
     -- Telescope
