@@ -20,6 +20,7 @@ require('mathis.keymaps.nvim-tree')
 require('mathis.keymaps.telescope')
 require('mathis.keymaps.lsp')
 require('mathis.keymaps.lazygit')
+require('mathis.keymaps.bufferline')
 
 -- Autocmd
 require('mathis.autocmd.small-indent')
