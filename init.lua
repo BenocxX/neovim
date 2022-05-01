@@ -16,6 +16,7 @@ require('mathis.configurations.lualine')
 require("mathis.configurations.comment")
 require("mathis.configurations.impatient")
 require("mathis.configurations.quickscope")
+require("mathis.configurations.hop")
 
 -- Keymaps
 require('mathis.keymaps.vim')
@@ -25,6 +26,7 @@ require('mathis.keymaps.lsp')
 require('mathis.keymaps.lazygit')
 require('mathis.keymaps.bufferline')
 require('mathis.keymaps.gitsigns')
+require('mathis.keymaps.hop')
 
 -- Autocmd
 require('mathis.autocmd.small-indent')

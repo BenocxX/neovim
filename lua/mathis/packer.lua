@@ -49,6 +49,7 @@ return require('packer').startup(function()
         requires = { 'kyazdani42/nvim-web-devicons', opt = true }
     }
     use 'unblevable/quick-scope'
+    use 'phaazon/hop.nvim'
 
     -- Telescope
     use {
