@@ -22,4 +22,5 @@ require('mathis.keymaps.lazygit')
 
 -- Autocmd
 require('mathis.autocmd.small-indent')
+require('mathis.autocmd.source_bufferline')
 -- require('mathis.autocmd.dracula')

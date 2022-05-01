@@ -36,6 +36,11 @@ return require('packer').startup(function()
             'kyazdani42/nvim-web-devicons', -- optional, for file icon
     	}
     }
+    use {
+        'akinsho/bufferline.nvim',
+        tag = "*",
+        requires = 'kyazdani42/nvim-web-devicons'
+    }
 
     -- Telescope
     use {
