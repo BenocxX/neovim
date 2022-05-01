@@ -2,6 +2,9 @@ return require('packer').startup(function()
     -- Packer auto maintaining
     use 'wbthomason/packer.nvim'
 
+    -- Optimisation
+    use 'lewis6991/impatient.nvim'
+
     -- Visual
     use 'morhetz/gruvbox'
     use 'dracula/vim'

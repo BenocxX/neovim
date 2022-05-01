@@ -124,6 +124,11 @@ _G.packer_plugins = {
     path = "/Users/mathiscote/.local/share/nvim/site/pack/packer/start/gruvbox",
     url = "https://github.com/morhetz/gruvbox"
   },
+  ["impatient.nvim"] = {
+    loaded = true,
+    path = "/Users/mathiscote/.local/share/nvim/site/pack/packer/start/impatient.nvim",
+    url = "https://github.com/lewis6991/impatient.nvim"
+  },
   ["lazygit.nvim"] = {
     loaded = true,
     path = "/Users/mathiscote/.local/share/nvim/site/pack/packer/start/lazygit.nvim",
