@@ -21,6 +21,7 @@ require('mathis.keymaps.telescope')
 require('mathis.keymaps.lsp')
 require('mathis.keymaps.lazygit')
 require('mathis.keymaps.bufferline')
+require('mathis.keymaps.gitsigns')
 
 -- Autocmd
 require('mathis.autocmd.small-indent')
