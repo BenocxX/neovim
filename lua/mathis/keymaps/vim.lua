@@ -5,7 +5,6 @@ vim.g.mapleader = ','
 
 -- Use space for search
 k.set('n', '<space>', '<Nop>')
-k.set('', '<space>', '/')
 k.set('', '<space><cr>', ':noh<cr>', { silent = true })
 
 -- 0 to first no blank char
