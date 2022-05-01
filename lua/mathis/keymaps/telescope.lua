@@ -1,7 +1,7 @@
 -- Telescope remap
 local k = vim.keymap
 
-k.set('', '<leader>ff', ':Telescope find_files<cr>', { silent = true })
-k.set('', '<leader>fg', ':Telescope live_grep<cr>', { silent = true })
-k.set('', '<leader>fb', ':Telescope buffers<cr>', { silent = true })
-k.set('', '<leader>fc', ':Telescope colorscheme<cr>', { silent = true })
+k.set('', '<space>f', ':Telescope find_files<cr>', { silent = true })
+k.set('', '<space>g', ':Telescope live_grep<cr>', { silent = true })
+k.set('', '<space>b', ':Telescope buffers<cr>', { silent = true })
+k.set('', '<space>c', ':Telescope colorscheme<cr>', { silent = true })
