@@ -199,6 +199,11 @@ _G.packer_plugins = {
     path = "/Users/mathiscote/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  ["quick-scope"] = {
+    loaded = true,
+    path = "/Users/mathiscote/.local/share/nvim/site/pack/packer/start/quick-scope",
+    url = "https://github.com/unblevable/quick-scope"
+  },
   ["telescope-fzf-native.nvim"] = {
     loaded = true,
     path = "/Users/mathiscote/.local/share/nvim/site/pack/packer/start/telescope-fzf-native.nvim",

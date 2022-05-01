@@ -15,6 +15,7 @@ require('mathis.configurations.gitsigns')
 require('mathis.configurations.lualine')
 require("mathis.configurations.comment")
 require("mathis.configurations.impatient")
+require("mathis.configurations.quickscope")
 
 -- Keymaps
 require('mathis.keymaps.vim')
