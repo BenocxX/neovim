@@ -18,6 +18,7 @@ return require('packer').startup(function()
     use 'hrsh7th/cmp-cmdline'
     use 'hrsh7th/nvim-cmp'
     use 'windwp/nvim-autopairs'
+    use 'numToStr/Comment.nvim'
 
     -- Completition Snippets
     use 'saadparwaiz1/cmp_luasnip'
@@ -62,5 +63,6 @@ return require('packer').startup(function()
         'nvim-treesitter/nvim-treesitter',
         run = ':TSUpdate'
     }
+    use 'JoosepAlviste/nvim-ts-context-commentstring'
     use "p00f/nvim-ts-rainbow"
 end)
