@@ -31,4 +31,5 @@ require('mathis.keymaps.hop')
 -- Autocmd
 require('mathis.autocmd.small-indent')
 require('mathis.autocmd.source_bufferline')
+require('mathis.autocmd.autosave')
 -- require('mathis.autocmd.dracula')
