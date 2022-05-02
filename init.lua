@@ -17,6 +17,7 @@ require("mathis.configurations.comment")
 require("mathis.configurations.impatient")
 require("mathis.configurations.quickscope")
 require("mathis.configurations.hop")
+require("mathis.configurations.autosave")
 
 -- Keymaps
 require('mathis.keymaps.vim')
@@ -31,5 +32,4 @@ require('mathis.keymaps.hop')
 -- Autocmd
 require('mathis.autocmd.small-indent')
 require('mathis.autocmd.source_bufferline')
-require('mathis.autocmd.autosave')
 -- require('mathis.autocmd.dracula')

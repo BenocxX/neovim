@@ -14,6 +14,9 @@ return require('packer').startup(function()
     use 'lewis6991/gitsigns.nvim'
     use 'kdheepak/lazygit.nvim'
 
+    -- Autosave
+    use 'Pocco81/AutoSave.nvim'
+
     -- Completition
     use 'hrsh7th/cmp-nvim-lsp'
     use 'hrsh7th/cmp-buffer'
