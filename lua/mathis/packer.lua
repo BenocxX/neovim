@@ -25,6 +25,7 @@ return require('packer').startup(function()
     use 'hrsh7th/nvim-cmp'
     use 'windwp/nvim-autopairs'
     use 'numToStr/Comment.nvim'
+    use 'vigoux/templar.nvim'
 
     -- Completition Snippets
     use 'saadparwaiz1/cmp_luasnip'

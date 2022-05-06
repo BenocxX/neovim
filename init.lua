@@ -18,6 +18,7 @@ require("mathis.configurations.impatient")
 require("mathis.configurations.quickscope")
 require("mathis.configurations.hop")
 require("mathis.configurations.autosave")
+require("mathis.configurations.templar")
 
 -- Keymaps
 require('mathis.keymaps.vim')
